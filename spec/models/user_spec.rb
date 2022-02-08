@@ -125,6 +125,5 @@ RSpec.describe User, type: :model do
 
       expect(User.authenticate_with_credentials('TEST@test.COM', 'pasword')).to be(nil)
     end
-
   end
 end
