@@ -2,6 +2,50 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+### Home Page
+
+Home page, displaying every product that Jungle has to offer.
+
+!["home page"](https://github.com/mpham-12/jungle-rails/blob/master/docs/homepage.png)
+
+### Selecting a Product
+
+Upon clicking the product, it will render a new page that displays the product.
+
+!["product details"](https://github.com/mpham-12/jungle-rails/blob/master/docs/product_display.png)
+
+### My Cart
+
+Cart page, showing all the products you have added, along with the prices.
+
+!["cart"](https://github.com/mpham-12/jungle-rails/blob/master/docs/cart.png)
+
+### Entering your Payment Details
+
+Using stripe, users are able to pay for their order by entering their card details.
+
+!["pay via stripe"](https://github.com/mpham-12/jungle-rails/blob/master/docs/payment.png)
+
+### Order Confrimation
+
+Once the order is submitted, your order details will appear as a means of confirmation
+
+!["order details"](https://github.com/mpham-12/jungle-rails/blob/master/docs/order_details.png)
+
+### Adding a New Product
+
+The admin, who must provide the valid log in details, is able to create and delete products.
+
+!["admin products page"](https://github.com/mpham-12/jungle-rails/blob/master/docs/admin_products.png)
+
+### New Product Form
+
+This is the New Product Form that is used to create a new product.
+
+!["new product form"](https://github.com/mpham-12/jungle-rails/blob/master/docs/new_product.png)
+
+
+
 ## Additional Steps for Apple M1 Machines
 
 1. Make sure that you are runnning Ruby 2.6.6 (`ruby -v`)
